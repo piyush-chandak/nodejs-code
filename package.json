@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-code",
+  "version": "1.0.0",
+  "description": "A nodejs Application for limiting api calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "listen": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush-chandak/nodejs-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyush-chandak/nodejs-code/issues"
+  },
+  "homepage": "https://github.com/piyush-chandak/nodejs-code#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7"
+  }
+}
